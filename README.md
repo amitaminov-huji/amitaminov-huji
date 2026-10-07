@@ -53,7 +53,7 @@ Everything else — and the write-ups behind it — stays in one place:
 
 </div>
 
-You'll find the theorem-proving and formal-reasoning work, the evaluation-integrity projects, the agentic reproduction harness, and the applied systems there — each with its own write-up, figures, and reproducible results. The portfolio at **[amitaminov.github.io](https://amitaminov.github.io/)** walks through the same work with the context behind it.
+You'll find the evaluation-integrity projects, the agentic reproduction harness, and the applied systems there — each with its own write-up, figures, and reproducible results. The portfolio at **[amitaminov.github.io](https://amitaminov.github.io/)** walks through the same work with the context behind it.
 
 ## 🛠️ Tech I work with
 
