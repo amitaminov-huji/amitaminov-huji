@@ -16,8 +16,8 @@
 
 ## Hi, I'm Amit 👋
 
-This is my Hebrew University account, which I use for coursework and academic collaboration.
-**All of my projects and public code live on my personal profile — [@AmitAminov](https://github.com/AmitAminov).**
+This is my Hebrew University account. It hosts my **M.Sc. thesis artifacts**; the rest of my
+projects and public code live on my personal profile — [@AmitAminov](https://github.com/AmitAminov).
 
 I'm a data scientist and ML researcher, currently doing a research M.Sc. at the Hebrew University of Jerusalem. My bachelor's was in physics, at Bar-Ilan, through its gifted-in-math track.
 
@@ -28,14 +28,24 @@ Another thing I emphasize is defining a baseline and a train, test and validatio
 
 ## 🔬 What I'm working on
 
-- **Formal reasoning** — fine-tuning LLMs to prove theorems in **Lean 4** with GRPO, rewarded by the Lean kernel's accept-or-reject, measured against goal-blind frequency baselines.
-- **Rigorous evaluation** — chronological splits over shuffled ones, frequency-table baselines, artifact-scored reproductions, closed forms over Monte-Carlo intuition.
+- **Formal reasoning** — my M.Sc. thesis: reading a frozen **Lean 4** prover's internal states mid-proof to predict, early, which attempts will never close the goal, with every label settled by the Lean kernel rather than a proof server.
+- **Rigorous evaluation** — chronological splits over shuffled ones, verifier-checked verdicts over a scorer's say-so, negative results reported as negative, artifact-scored reproductions, closed forms over Monte-Carlo intuition.
 - **LLMs & agentic pipelines** — evaluation harnesses that score what a run actually produced on disk, not what the agent claims.
 - **Statistics & operations research** — experimental design, uncertainty, optimization, and resource-allocation modeling.
 
 ## 📂 Where my code lives
 
-Rather than mirror everything here, my repositories stay in one place:
+My thesis artifacts are on this account:
+
+<div align="center">
+
+### 📐 **[Internal-State Probes for Kernel-Verified Theorem Proving](https://github.com/amitaminov-huji/Internal-State-Probes-for-Kernel-Verified-Theorem-Proving)**
+
+<sub>Probes under 3M parameters read a frozen prover's hidden state and predict Lean-kernel failure at ROC-AUC 0.89–0.92 — still 0.64–0.79 from only the first 250–4,000 generated tokens, where a token counter sits at chance. Steering on that signal is reported as a negative result.</sub>
+
+</div>
+
+Everything else — and the write-ups behind it — stays in one place:
 
 <div align="center">
 
